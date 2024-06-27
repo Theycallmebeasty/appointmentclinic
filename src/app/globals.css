@@ -11,7 +11,14 @@ input[type='email'],
 input[type='password'],
 input[type='text'] {
   @apply block w-full my-2 rounded-xl;
-  @apply border p-2 border-red-600;
+  @apply border p-2 border-red-400 bg-gray-100;
+}
+
+input[type='email']:disabled,
+input[type='password']:disabled,
+input[type='text']:disabled {
+  @apply bg-gray-300 cursor-not-allowed;
+
 }
 
 button {
@@ -19,9 +26,14 @@ button {
   @apply border border-gray-500 rounded-xl px-6 py-2;
 }
 
-button[type='submit'],
+button[type="submit"],
 .submit {
-  @apply border border-white bg-primary text-white;
+  @apply border-0 border-white bg-primary text-white;
+}
+
+button[type="submit"]:disabled, 
+.submit:disabled {
+  @apply cursor-not-allowed bg-red-400; 
 }
 
 
