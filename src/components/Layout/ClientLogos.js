@@ -4,7 +4,7 @@
 const clients = [
    { name: 'Client A', image: '/dhl.png' },
    { name: 'Client B', image: '/atc.png' },
-   { name: 'Client C', image: '/qun.png' },
+   { name: 'Client C', image: '/az.png' },
    { name: 'Client D', image: '/red.png' },
    { name: 'Client E', image: '/lyn.png' },
    { name: 'Client F', image: '/nfi.png' },
