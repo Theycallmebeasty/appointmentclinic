@@ -1,4 +1,4 @@
-import Header from '@/components/Layout/Header'
+import Header from '../components/Layout/Header'
 import { Roboto } from 'next/font/google'
 import './globals.css'
 
