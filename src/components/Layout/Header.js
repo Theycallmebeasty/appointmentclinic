@@ -4,7 +4,7 @@ export default function Header() {
    return (
       <header className="flex item-center justify-between gap-5">
         <nav className="flex items-center gap-8 text-gray-500 font-semibold  ">  
-          <Link className="flex text-red-800 font-semibold text-2xl " href="/">
+          <Link className="flex text-primary font-semibold text-2xl italic" href="/">
           <h1 className="text-3xl italic  font-bold ">UJ CLINIC</h1>
           </Link>
           <Link href={'/'}>Home</Link>

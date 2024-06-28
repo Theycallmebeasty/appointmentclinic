@@ -8,9 +8,9 @@ export default function Hero() {
           <Image src={'/Unijos.png'} layout={'fill'} objectFit={'cover'} alt={'home'} />
         </div>
         <div className="py-8 relative z-10">
-          <h1 className="text-6xl text-blue-500 font-semibold text-center">Dedicatated To Providing  <span   className="text-primary"> Exceptional</span> Care !</h1>
-           <p className="my-7 text-2xl text-red-700 text-center">
-             STAY FIT <span  className="text-blue-900">|</span> STAY STRONG 
+          <h1 className="text-6xl text-gray-600 font-bold text-center italic">  <span   className="text-primary"> Dedicatated </span>To Providing  <span   className="text-blue-900"></span> Exceptional Care </h1>
+           <p className="my-7 text-2xl text-primary font-semibold text-center">
+             STAY FIT <span  className="text-gray-700">|</span> STAY STRONG <span className="text-primary"></span>
            </p>
         </div>
      </section>
