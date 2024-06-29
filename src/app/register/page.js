@@ -57,6 +57,10 @@ export default function RegisterPage() {
                or Login with provider
             </div>
             <button>Login with Gmail</button>
+             <div className="text-center my-4 text-gray-500 border-t pt-4">
+               Existing account?{' '}
+               <Link className="underline" href={'/login'}>Login here  &raquo;</Link>
+             </div>
          </form>
       </section>
    );
